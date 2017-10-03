@@ -13,11 +13,25 @@ h2{
 }
 input{
 	margin-top: 10px;
+	margin-bottom: 20px; 
 }
 
 
 ul{
 	padding: 0;
+}
+
+a{	
+	color: #462266;
+	text-decoration: none;
+	background-color: #ccc;
+	padding: 5px 10px 5px 10px;
+	border:2px solid #929599;
+	border-radius: 5px;
+}
+
+a:hover{
+	background-color: #97d18e;
 }
 
 .avatar{

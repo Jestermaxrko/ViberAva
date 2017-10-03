@@ -12,16 +12,23 @@ function initFireBase(){
 }
 
 
-function saveColor(t){
-
+function changeColor(t){
 	head.style.fill=t.value;
 	body.style.fill=t.value;
+	color = t.value;
+}
 
-	firebase.database().ref('colors/').push({
-    hex: t.value
-  });
+function saveColor(t){
 
-	document.location.reload(true);
+	if(color){
+	
+		firebase.database().ref('colors/').push({
+	    hex: color
+	  	});
+
+
+		document.location.reload(true);
+	}
 }
 
 function loadColors(){
@@ -53,6 +60,7 @@ function displayColors() {
 }
 
 var colors = [];
+var color;
 initFireBase();
 loadColors();
 
