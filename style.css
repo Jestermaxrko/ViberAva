@@ -1,10 +1,30 @@
 .container{
 	width: 95%;
-	margin:auto;
+	margin: auto;
 	text-align: center;
+	font-weight: bold;
+	font-family: Verdana;
+	text-transform: uppercase;
+	color:#5b5b5b;
+}
+
+h2{
+	border-bottom: 2px solid #5b5b5b;
+}
+input{
+	margin-top: 10px;
 }
 
 
-object{
-	
+ul{
+	padding: 0;
+}
+
+.avatar{
+	display: inline-block;
+	color: white;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	border:1px solid #5b5b5b;
 }
