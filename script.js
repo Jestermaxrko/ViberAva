@@ -61,7 +61,7 @@ function displayColors() {
 	}
 }
 
-var colors = [];
+
 var color;
 initFireBase();
 loadColors();
