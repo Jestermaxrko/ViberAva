@@ -52,7 +52,7 @@ function displayColors() {
 
     for(var i=0;i<colors.length;i++){
 	  var li = document.createElement("li");
-	  li.appendChild(document.createTextNode(colors[i]));
+	  li.appendChild(document.createTextNode(colors[i]);
 	  ul.appendChild(li);
 	  li.setAttribute("class", "avatar");
 	  li.setAttribute("value",colors[i]);
